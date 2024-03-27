@@ -1,0 +1,67 @@
+
+.card-profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem; 
+    padding-left: 3px; 
+    
+}
+  
+.card-profile-section h3 {
+    font-size: 40px;
+}
+  
+.profile-image {
+    background-image: url('../assets/836.jpg  '); 
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%; 
+    margin-right: 100px;
+    margin-left: 100px; 
+    background-color: white;
+    background-size: cover;
+}
+  
+.card-profile-text h3 {
+    margin-bottom: 0.25rem;
+    color: #08605f;
+}
+  
+.card-main-content {
+    text-align: left; 
+    padding: 1rem; 
+}
+  
+.card-main-content h4{
+    text-align: center;
+    font-size: 17.5px;
+    padding: 0 20vh 0 20vh;
+}
+  
+.red-text {
+    color: #CC2936;
+}
+  
+.card-body {
+    font-family: "Oswald", sans-serif;
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+}
+  
+.card-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px ;
+    margin-bottom: 0.75rem;
+}
+  
+.card-text {
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+s {
+    text-decoration-thickness: 3px;
+    color: #CC2936;
+}
