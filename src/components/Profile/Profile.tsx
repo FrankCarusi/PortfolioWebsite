@@ -19,7 +19,7 @@ const Profile: React.FC = () => {
           Computer Science with a specialization in Cloud Computing. Apart from my studies I am a huge <span className='red-text'>basketball</span> fan, I love to <s><span className='red-text crossed'>cook</span></s> <span className='red-text'>eat</span>, 
           and spend as much of my free time <span className='red-text'>cycling</span> as possible.</h4>
         <h4>Enjoy exploring my website! If you scroll you will find my complete <span className='red-text'>profile</span> including skills and experience, as well as some of the <span className='red-text'>projects</span> I have created so far.</h4>
-        <h4>Feel free to tell me what you think. You can contact me on <a href='#'>LinkedIN</a> or by <a href='frankcarusi.fc@gmail.com'>Email</a></h4>
+        <h4>Feel free to tell me what you think. You can contact me on <a href='https://www.linkedin.com/in/frank-carusi/'>LinkedIN</a> or by Email at Frankcarusi.fc@gmail.com</h4>
       </div>
     </CCardBody>
     
