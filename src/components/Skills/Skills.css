@@ -1,0 +1,85 @@
+.custom-card {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: white;
+    border: 4px solid #08605f;
+    border-radius: 4px;
+    margin: 40px;
+    padding: 20px;
+  }
+  
+  .card-title {
+    text-align: center;
+    color: #08605f;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #08605f;
+    text-transform: uppercase;
+  }
+  
+  .skills-experience-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .section-title {
+    margin-top: 0;
+    padding-left: 1rem;
+    border-left: 5px solid #08605f;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-section, .experience-section {
+    width: 48%;
+  }
+  
+  @media (max-width: 768px) {
+    .skills-experience-section {
+      flex-direction: column;
+    }
+  
+    .skills-section, .experience-section {
+      width: 100%;
+    }
+  }
+
+.red-text {
+    color: #CC2936;
+    font-weight: bolder;
+}
+
+.grey-text {
+    color: gray;
+}
+
+h1 {
+    margin-left: 40px;
+    color: #08605f;
+    margin-bottom: 0px;
+}
+
+h1+p {
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+.icon {
+    color: #08605f;
+    font-size: 70px;
+    margin-right: 20px;
+    margin: 0 0 0 15vw;
+    
+
+}
+
+.indent {
+    margin-left: 20px
+}
+  
