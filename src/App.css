@@ -1,0 +1,30 @@
+@import "../node_modules/slick-carousel/slick/slick.css";
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('assets/abstract-triangles-background.jpg');
+    background-size: cover;
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+    background-color: white;
+
+}
+  
+.card {
+    width: 80%;   
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+
+  
