@@ -3,13 +3,15 @@ import './Profile.css';
 import {
   CCardBody,
 } from '@coreui/react';
+import profileImage from '../../assets/836.jpg';
+
 
 const Profile: React.FC = () => {
   return (
 
     <CCardBody>
       <div className="card-profile-section">
-        <img src="src/assets/836.jpg" alt="Profile" className="profile-image"/>
+        <img src={profileImage} alt="Profile" className="profile-image"/>
         <div className="card-profile-text">
           <h3>Welcome! My name is Frank Carusi</h3>
         </div>
